@@ -1,0 +1,92 @@
+body {
+  font-size: 16px;
+  font-family: 'Grandstander', cursive;
+}
+
+/****** HEADER ******/
+
+#header-nav {
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.navbar-brand h1 { 
+  font-size: 2em; 
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none; 
+}
+
+#nav-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/****** all links in nav-list ******/
+
+ul	{
+	background-color: lightsteelblue;
+}
+
+#nav-list a { 
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover { 
+  background: #E7E7E7;
+}
+#nav-list a span { 
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid lightsteelblue;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both; 
+  margin-top: -55px;
+}
+
+/****** MAIN CONTENT ******/
+
+#main-content {
+	margin-top: 0px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+h2, h3 {
+	font-weight: bold;
+}
+
+#top {
+	padding-top:10px;
+}
+
+.marginBottom	{
+	margin-bottom: 30px;
+}
+
+.innerBox	{
+	margin: 10px 0 30px;
+	padding: 2px 20px 10px 20px;
+	background-color: lightsteelblue;
+}
+
+#chicken a, #beef a, #sushi a	{
+	color: blue;
+}
+
