@@ -1,0 +1,115 @@
+<!DOCTYPE html5>
+<html lang="en">
+
+	<head>
+		<!-- Required meta data -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- import Bootstrap from folder -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		
+		<!-- Our own custom css sheet -->
+		<link rel="stylesheet" href="css/Mod3_menu.css">
+		
+		<!-- Import font from fonts.google.com as we do not have them locally -->
+		<link href="https://fonts.googleapis.com/css2?family=Grandstander&display=swap" rel="stylesheet">
+		
+		<title>Assignment Solution for Module 3</title>
+	</head>
+	
+	<body>
+	
+<!-- *********************************************************************** -->	
+<!--                              coding header                              -->	
+<!-- *********************************************************************** -->	
+
+		<header>
+			<nav id="header-nav" class="navbar navbar-default">
+				<div class="container-fluid">
+					<div class="navbar-header">
+					
+						<div class="navbar-brand"> 
+							<a href="Mod3_Menu.html"><h1>Food, LLC</h1></a>
+						</div>
+						
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+							<span class="icon-bar"></span> 
+							<span class="icon-bar"></span> 
+							<span class="icon-bar"></span>
+						</button>
+                  
+						<div class="clearfix"></div>
+						
+						<div id="collapsable-nav" class="collapse navbar-collapse">
+							<ul id="nav-list" class="nav navbar-nav text-center">
+								<li class="visible-xs">
+									<a href="#chicken"><br>Chicken</a>
+								</li>
+								<li class="visible-xs">
+									<a href="#beef"><br>Beef</a>
+								</li>
+								<li class="visible-xs">
+									<a href="#sushi"><br>Sushi</a>
+								</li>
+							<ul>	
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+	
+<!-- *********************************************************************** -->	
+<!--                               main content                              -->	
+<!-- *********************************************************************** -->	
+		
+		<div id="main-content" class="container-fluid">		
+	
+			<section id="top">	
+				<h2 class="text-center marginBottom">Our Menu</h2>
+			</section>	
+			
+			<div id="single-item-container" class="row">
+				
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<section id="chicken">	
+						<div class="innerBox">
+							<h3 class="text-center">Chicken</h3>
+							<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut lectus ac turpis ullamcorper fermentum ac vel justo. Ut ac congue dui, eu feugiat purus. Cras semper nisl tortor, vitae lobortis dolor pulvinar id. Vivamus quis erat venenatis, lobortis ipsum eget, porta justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut lectus ac turpis ullamcorper fermentum ac vel justo. Ut ac congue dui, eu feugiat purus. Cras semper nisl tortor, vitae lobortis dolor pulvinar id. Vivamus quis erat venenatis, lobortis ipsum eget, porta justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut lectus ac turpis ullamcorper fermentum ac vel justo. Ut ac congue dui, eu feugiat purus. Cras semper nisl tortor, vitae lobortis dolor pulvinar id. Vivamus quis erat venenatis, lobortis ipsum eget, porta justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut lectus ac turpis ullamcorper fermentum ac vel justo. Ut ac congue dui, eu feugiat purus. Cras semper nisl tortor, vitae lobortis dolor pulvinar id. Vivamus quis erat venenatis, lobortis ipsum eget, porta justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut lectus ac turpis ullamcorper fermentum ac vel justo. Ut ac congue dui, eu feugiat purus. Cras semper nisl tortor, vitae lobortis dolor pulvinar id. Vivamus quis erat venenatis, lobortis ipsum eget, porta justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut lectus ac turpis ullamcorper fermentum ac vel justo. Ut ac congue dui, eu feugiat purus. Cras semper nisl tortor, vitae lobortis dolor pulvinar id. Vivamus quis erat venenatis, lobortis ipsum eget, porta justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut lectus ac turpis ullamcorper fermentum ac vel justo. Ut ac congue dui, eu feugiat purus. Cras semper nisl tortor, vitae lobortis dolor pulvinar id. Vivamus quis erat venenatis, lobortis ipsum eget, porta justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut lectus ac turpis ullamcorper fermentum ac vel justo. Ut ac congue dui, eu feugiat purus. Cras semper nisl tortor, vitae lobortis dolor pulvinar id. Vivamus quis erat venenatis, lobortis ipsum eget, porta justo.</p>
+							<div><a href="#top">Back To Top</a></div>
+						</div> 
+					</section>
+				</div>
+				
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<section id="beef">	
+						<div class="innerBox">
+							<h3 class="text-center">Beef</h3>
+							<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut lectus ac turpis ullamcorper fermentum ac vel justo. Ut ac congue dui, eu feugiat purus. Cras semper nisl tortor, vitae lobortis dolor pulvinar id. Vivamus quis erat venenatis, lobortis ipsum eget, porta justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut lectus ac turpis ullamcorper fermentum ac vel justo. Ut ac congue dui, eu feugiat purus. Cras semper nisl tortor, vitae lobortis dolor pulvinar id. Vivamus quis erat venenatis, lobortis ipsum eget, porta justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut lectus ac turpis ullamcorper fermentum ac vel justo. Ut ac congue dui, eu feugiat purus. Cras semper nisl tortor, vitae lobortis dolor pulvinar id. Vivamus quis erat venenatis, lobortis ipsum eget, porta justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut lectus ac turpis ullamcorper fermentum ac vel justo. Ut ac congue dui, eu feugiat purus. Cras semper nisl tortor, vitae lobortis dolor pulvinar id. Vivamus quis erat venenatis, lobortis ipsum eget, porta justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut lectus ac turpis ullamcorper fermentum ac vel justo. Ut ac congue dui, eu feugiat purus. Cras semper nisl tortor, vitae lobortis dolor pulvinar id. Vivamus quis erat venenatis, lobortis ipsum eget, porta justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut lectus ac turpis ullamcorper fermentum ac vel justo. Ut ac congue dui, eu feugiat purus. Cras semper nisl tortor, vitae lobortis dolor pulvinar id. Vivamus quis erat venenatis, lobortis ipsum eget, porta justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut lectus ac turpis ullamcorper fermentum ac vel justo. Ut ac congue dui, eu feugiat purus. Cras semper nisl tortor, vitae lobortis dolor pulvinar id. Vivamus quis erat venenatis, lobortis ipsum eget, porta justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut lectus ac turpis ullamcorper fermentum ac vel justo. Ut ac congue dui, eu feugiat purus. Cras semper nisl tortor, vitae lobortis dolor pulvinar id. Vivamus quis erat venenatis, lobortis ipsum eget, porta justo.</p>
+							<div><a href="#top">Back To Top</a></div>
+						</div>
+					</section>
+				</div>
+				
+				<div class="col-md-4 col-sm-12 col-xs-12">
+					<section id="sushi">
+						<div class="innerBox">
+							<h3 class="text-center">Sushi</h3>
+							<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut lectus ac turpis ullamcorper fermentum ac vel justo. Ut ac congue dui, eu feugiat purus. Cras semper nisl tortor, vitae lobortis dolor pulvinar id. Vivamus quis erat venenatis, lobortis ipsum eget, porta justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut lectus ac turpis ullamcorper fermentum ac vel justo. Ut ac congue dui, eu feugiat purus. Cras semper nisl tortor, vitae lobortis dolor pulvinar id. Vivamus quis erat venenatis, lobortis ipsum eget, porta justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut lectus ac turpis ullamcorper fermentum ac vel justo. Ut ac congue dui, eu feugiat purus. Cras semper nisl tortor, vitae lobortis dolor pulvinar id. Vivamus quis erat venenatis, lobortis ipsum eget, porta justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut lectus ac turpis ullamcorper fermentum ac vel justo. Ut ac congue dui, eu feugiat purus. Cras semper nisl tortor, vitae lobortis dolor pulvinar id. Vivamus quis erat venenatis, lobortis ipsum eget, porta justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut lectus ac turpis ullamcorper fermentum ac vel justo. Ut ac congue dui, eu feugiat purus. Cras semper nisl tortor, vitae lobortis dolor pulvinar id. Vivamus quis erat venenatis, lobortis ipsum eget, porta justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut lectus ac turpis ullamcorper fermentum ac vel justo. Ut ac congue dui, eu feugiat purus. Cras semper nisl tortor, vitae lobortis dolor pulvinar id. Vivamus quis erat venenatis, lobortis ipsum eget, porta justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut lectus ac turpis ullamcorper fermentum ac vel justo. Ut ac congue dui, eu feugiat purus. Cras semper nisl tortor, vitae lobortis dolor pulvinar id. Vivamus quis erat venenatis, lobortis ipsum eget, porta justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut lectus ac turpis ullamcorper fermentum ac vel justo. Ut ac congue dui, eu feugiat purus. Cras semper nisl tortor, vitae lobortis dolor pulvinar id. Vivamus quis erat venenatis, lobortis ipsum eget, porta justo.</p>		
+							<div><a href="#top">Back To Top</a></div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+		
+		<!-- jQuery (Bootstrap JS plugins depend on it) -->
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/script.js"></script>
+		
+	</body>
+</html>	
+
+  
